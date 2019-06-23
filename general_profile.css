@@ -1,0 +1,147 @@
+﻿
+.inner {
+    text-align: left;
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+.nothing{
+    margin-left: 0px;
+    height:400px;
+    width: 60px;
+}
+.general {
+    font-size: 20px;
+    float: left;
+    padding-right: 80px;
+    padding-top: 8px;
+
+}
+.general>a{
+    text-decoration: none;
+    color: white;
+}
+div.temp {/*导航栏颜色*/
+    height:50px;
+    width: 100%;
+    list-style: none;
+    text-decoration-line: none;
+    background: darkblue;
+}
+.temp ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+/*.temp>ul>li>ul{*/
+/**/
+/*}*/
+.position{
+    padding-left: 120px;
+}
+.general>ul>li{
+    text-align: center;
+    line-height: 20px;
+    width: 78px;
+    background-color: darkblue !important;
+    color: white !important;
+    list-style: none;
+    font-size: medium;
+    transition: all;
+    opacity: 0;
+    height: 30px;
+}
+.temp>ul>li>ul>li>a{
+	color:white;
+	text-decration:none;
+        
+}
+.general>ul{
+    height: 15px;
+    width: 50px;
+    font-size: 10px ;
+    text-decoration: none;
+    padding-left: 0px;
+    opacity: 1;
+}
+
+/*a:hover .general>ul>li{*/
+/*;*/
+/*}*/
+
+.general:hover>ul>li:nth-child(1){
+    transition-duration: 200ms;
+    transform: rotateY(360deg);
+    opacity: 1;
+}
+.general:hover>ul>li:nth-child(2){
+    transform: rotateY(360deg);
+    transition-duration: 400ms;
+    opacity: 1;
+}
+.general:hover>ul>li:nth-child(3){
+    transform: rotateY(360deg);
+    transition-duration: 600ms;
+    opacity: 1;
+}
+.general>a:hover>ul>li:nth-child(4){
+    transform: rotateY(360deg);
+    transition-duration: 800ms;
+    opacity: 1;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.slide{/*窗体大小*/
+    position: relative;
+    width: 1024px;
+    height: 512px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+.img ul{/*窗体下圆点样式*/
+    position: absolute;
+    left: -1024px;
+    width: 4096px;
+}
+.img li{
+    list-style-type: none;
+    float: left;
+}
+img.big{/*适应窗体大小*/
+    width: 1024px;
+    height: 512px;
+}
+#num li{
+    list-style-type: none;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 100px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+#num {
+    position: absolute;
+    top: 450px;
+    left: 800px;
+}
+.btn{
+    font-size: 30px;
+    color: gray;
+}
+#left{
+    position: absolute;
+    top: 230px;
+    left: 40px;
+    cursor: pointer;
+}
+#right{
+    position: absolute;
+    top: 230px;
+    right: 40px;
+    cursor: pointer;
+}
